@@ -1,15 +1,22 @@
 ## gulp-comment-debug ![NPM version](https://img.shields.io/npm/v/gulp-comment-debug.svg?style=flat) 
 
-comment-debug plugin for gulp
+a `comment-debug` plugin for gulp
 
 ### Installation
 ```bash
-$ npm install gulp-comment-debug
+$ npm install gulp-comment-debug --save-dev
 ```
 
 ### Example
 ```js
-var gulpCommentDebug = require('gulp-comment-debug');
+var gulp = require('gulp');
+var commentDebug = require('gulp-comment-debug');
+
+gulp.task('convert', function () {
+  return gulp.src('example.js')
+    .pipe(commentDebug({ subnamespaceMarker: '[]' }))
+    .pipe(gulp.dest('dist/example.out.js'));
+});
 ```
 
 ### API
