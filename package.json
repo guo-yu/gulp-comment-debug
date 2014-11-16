@@ -1,0 +1,27 @@
+{
+  "name": "gulp-comment-debug",
+  "version": "0.1.0",
+  "description": "comment-debug plugin for gulp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/turingou/gulp-comment-debug.git"
+  },
+  "keywords": [
+    "gulp",
+    "comments",
+    "comment-debug",
+    "debug",
+    "comment",
+    "macros"
+  ],
+  "author": "turing <o.u.turing@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/turingou/gulp-comment-debug/issues"
+  },
+  "homepage": "https://github.com/turingou/gulp-comment-debug"
+}
