@@ -12,6 +12,7 @@
   },
   "keywords": [
     "gulp",
+    "gulpplugin",
     "comments",
     "comment-debug",
     "debug",
@@ -23,5 +24,9 @@
   "bugs": {
     "url": "https://github.com/turingou/gulp-comment-debug/issues"
   },
-  "homepage": "https://github.com/turingou/gulp-comment-debug"
+  "homepage": "https://github.com/turingou/gulp-comment-debug",
+  "dependencies": {
+    "gulp-util": "^3.0.1",
+    "through2": "^0.6.3"
+  }
 }
